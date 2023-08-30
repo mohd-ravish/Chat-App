@@ -7,7 +7,7 @@ import Chat from "./Chat";
 const socket = io.connect("https://chat-verse-server.vercel.app/");
 
 function App() {
-
+  
   const [username, setUsername] = useState("");
   const [room, setRoom] = useState("");
   const [showChat, setShowChat] = useState(false);
